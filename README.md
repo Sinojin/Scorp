@@ -23,7 +23,7 @@ Apiyi asadaki sekilde baslatiyoruz
 	app = app.Start("KullaniciAdi","Sifre")
 ```
 
-Burda onemli olan userlarin bilgilerine id leri sayesinde ulasiyoruz bunuda scropun sitesindeki profilene girdiginde url de yazili olan id yi girdigimizde hersey islem tamamlaniyor
+Burda onemli olan user larin bilgilerine id leri sayesinde ulasiyoruz Bu id leri  scropun sitesinde profil bolumunde url de yazili olan id dir.
 
 
 ```bash
@@ -32,7 +32,7 @@ Burda onemli olan userlarin bilgilerine id leri sayesinde ulasiyoruz bunuda scro
 ```
 	
 	
-Bu kod ise requestler bittiginde sistemden cikis yapmayi sagliyor koymasanizda olur ama oneririm sistemden cikis yapiniz.
+Bu kod ise requestler bittiginde sistemden cikis yapmayi sagliyor koymasanizda olur ama oneririm.
 	
 	
 ```bash
@@ -41,7 +41,7 @@ Bu kod ise requestler bittiginde sistemden cikis yapmayi sagliyor koymasanizda o
 
 ##Ornek Kullanim
 
-Burda Yapmak istedigim 0 ile 10 arasindaki  idlere  sahip herkesi terminale basmak
+Burda Yapmak istedigim 0 ile 10 arasindaki  id lere  sahip herkesi terminale basmak
 
 
 ```bash	
@@ -61,6 +61,8 @@ Burda Yapmak istedigim 0 ile 10 arasindaki  idlere  sahip herkesi terminale basm
 ```
 	
 Burdan Sonrasi sizin hayal gucunuze kalmis ilerleyen zamanlarda yorumlari ve takipcileri cekmekde yapabilirim tabiki istek olursa herkese kolay gelsin.
+
+Readme yi duzeltecek arkadaslara da hayir demem (: Yeni commitlere acigiz.
 
 
 
