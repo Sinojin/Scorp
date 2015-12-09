@@ -29,22 +29,22 @@ Burda onemli olan userlarin bilgilerine id leri sayesinde ulasiyoruz bunuda scro
 ```bash
 	account := app.GetUser(1+i)
 	fmt.Printf("Kullanici ID : %v Kullanici adi : %v  Isim Soyisim : %v %v  Begeni : %v ",account.User.Id,account.User.Username,account.User.FirstName,account.User.LastName,account.like_count)
-	```
+```
 	
 	
 Bu kod ise requestler bittiginde sistemden cikis yapmayi sagliyor koymasanizda olur ama oneririm sistemden cikis yapiniz.
 	
 	
-	```bash
+```bash
 	app.Close()
-	```
+```
 
 ##Ornek Kullanim
 
 Burda Yapmak istedigim 0 ile 10 arasindaki  idlere  sahip herkesi terminale basmak
 
 
- 	```bash	
+```bash	
  	
 	app := scorp.Api{}
 	app = app.Start("kullaniciAdi","Sifre")
@@ -58,7 +58,7 @@ Burda Yapmak istedigim 0 ile 10 arasindaki  idlere  sahip herkesi terminale basm
 	println()
 	go app.Close()
 
-	```
+```
 	
 Burdan Sonrasi sizin hayal gucunuze kalmis ilerleyen zamanlarda yorumlari ve takipcileri cekmekde yapabilirim tabiki istek olursa herkese kolay gelsin.
 
