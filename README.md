@@ -27,7 +27,7 @@ Burda onemli olan user larin bilgilerine id leri sayesinde ulasiyoruz Bu id leri
 
 
 ```bash
-	account := app.GetUser(1+i)
+	account := app.GetUser(BilgileriAlicagimizKisininIDsi)
 	fmt.Printf("Kullanici ID : %v Kullanici adi : %v  Isim Soyisim : %v %v  Begeni : %v ",account.User.Id,account.User.Username,account.User.FirstName,account.User.LastName,account.like_count)
 ```
 	
