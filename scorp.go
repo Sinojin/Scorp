@@ -25,17 +25,17 @@ type User struct {
 
 type Scorp struct  {
 	User User `json:"user"`
-	profile_picture string `json:"profile_picture"`
-	website string `json:"website"`
-	received_like_count int `json:"received_like_count"`
-	info string `json:"info"`
-	small_picture string `json:"small_picture"`
-	following_count int `json:"following_count"`
-	follower_count int `json:"follower_count"`
-	view_count int `json:"view_count"`
-	post_count int `json:"post_count"`
-	like_count int `json:"like_count"`
-	gender string `json:"gender"`
+	Profile_picture string `json:"profile_picture"`
+	Website string `json:"website"`
+	Received_like_count int `json:"received_like_count"`
+	Info string `json:"info"`
+	Small_picture string `json:"small_picture"`
+	Following_count int `json:"following_count"`
+	Follower_count int `json:"follower_count"`
+	View_count int `json:"view_count"`
+	Post_count int `json:"post_count"`
+	Like_count int `json:"like_count"`
+	Gender string `json:"gender"`
 }
 
 
